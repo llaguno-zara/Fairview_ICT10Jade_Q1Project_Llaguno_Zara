@@ -3,7 +3,7 @@ def display_char(e):
     document.getElementById("output1").innerHTML = ""
 
     categoryname = document.getElementById("category").value
-    get_product = document.getElementById("product").value
+    get_product = document.getElementById("prod").value
     get_sq = document.getElementById("stock").value
 
     SKU = categoryname[:3].upper() + "-" + get_product[:4].upper() + "-" + str(get_sq)
